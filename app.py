@@ -11,7 +11,7 @@ from tensorflow.keras.preprocessing import image
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://miro.medium.com/max/828/1*mUwYl3gW61G7pafyFnaCvw.gif");
+background-image: url("https://e0.pxfuel.com/wallpapers/155/795/desktop-wallpaper-cartoon-seamless-pattern-in-pastel-pink-summer-fruit-background-girly-vector-2088365-vector-art-at-vecteezy.jpg");
 background-size: 180%;
 background-position: top;
 background-repeat: no-repeat;
