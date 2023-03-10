@@ -71,8 +71,11 @@ else:
 	class_names =["Stage-1","Stage-2","Stage-3","Good"]
 
 	result = class_names[np.argmax(pred)]
+	if result==3:
+		 output = 'The Furit is Good '
 
-	output = 'The Disease is ' + result
+	else:	
+	    output = 'The Disease is ' + result
 
 	slot.text('Done')
 
