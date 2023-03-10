@@ -9,25 +9,6 @@ from PIL import Image
 from tensorflow.keras.preprocessing import image
 #import opencv
 
-page_bg_img = f"""
-<style>
-[data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://miro.medium.com/max/828/1*mUwYl3gW61G7pafyFnaCvw.gif");
-background-size: 180%;
-background-position: top;
-background-repeat: no-repeat;
-background-attachment: local;
-}}
-[data-testid="stHeader"] {{
-background: rgba(0,0,0,0);
-}}
-[data-testid="stToolbar"] {{
-right: 2rem;
-}}
-</style>
-"""
-
-st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
