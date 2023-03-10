@@ -71,7 +71,7 @@ else:
 	class_names =["Stage-1","Stage-2","Stage-3","Good"]
 
 	result = class_names[np.argmax(pred)]
-	if result==3:
+	if result=="Good":
 		 output = 'The Furit is Good '
 
 	else:	
